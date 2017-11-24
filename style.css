@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	width: 1280px;
+	
+	font-size: 20px;
+	line-height: 40px;
+	font-family: 'Quicksand', '游ゴシック体', 'Yu Gothic', 'YuGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	font-family: メイリオ, Meiryo, 'Century Gothic', 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+nav{
+	position: relative;
+	z-index: 9999;
+	
+	background: #000;
+	background-size:100% auto;
+}
+.menu-deco{
+	height: 37px;
+	
+	background: url(img/menu-bg.png) no-repeat;
+	background-size: 100% auto;
+}
+ul{
+   	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+table{
+	border-collapse: collapse;
+}
+img{
+	vertical-align: bottom;
+	border: 0;
+}
+a{
+	color: inherit;
+}
+a:hover{
+	opacity: 0.7;
+}
+button{
+	display: block;
+	
+	width: 400px;
+	margin: auto;
+	padding: 15px 0;
+	
+	background: #00112E;
+	
+	color: #fff;
+	font-size: 34px;
+	font-family: 'Mgen+ 1pp bold';
+}
+h1{
+	padding: 5px 0 0 100px;
+	
+	height: 75px;
+	
+	font-family: "HGS教科書体";
+	font-size: 40px;
+	text-align: left;
+	
+	background: url("img/h1.png") no-repeat;
+}
+h2{
+	padding: 20px 0 0 100px;
+	
+	height: 77px;
+	
+	font-size: 38px;
+	font-weight: normal;
+	text-align: left;
+	
+	background: url(img/topics.png) no-repeat;
+}
+h3{
+	padding: 5px 0 0 50px;
+	height: 45px;
+	
+	font-size: 34px;
+	
+	font-family: "HGS教科書体";
+	text-align: left;
+	background: url(img/h3.png) no-repeat;
+}
+article.normal{
+	margin: 0 auto;
+	padding: 20px 0;
+	
+	text-align: center;
+	width: 90%;
+}
+article.normal p.sent{
+	display: inline-block;
+	
+	margin-right: 30px;
+	width: 600px;
+	
+	text-align: left;
+}
+article.normal p.sent-big{
+	display: inline-block;
+	
+	margin-right: 30px;
+	width: 90%;
+	
+	text-align: left;
+}
+article.topics{
+	margin: 30px 0;
+	padding: 1px 5% 20px 5%;
+	
+	height: 550px;
+	background: #ccc;
+}
+footer{
+	margin-top: 50px;
+	padding: 30px 0;
+	
+	text-align: center;
+	
+	color: #fff;
+	background: #000;
+}
+ul.nav{
+	text-align: right;
+}
+li.nav{
+	display: inline-block;
+	
+	margin: 10px 30px;
+	
+	text-align: center;
+	color: #fff;
+	font-family: 'Mgen+ 1pp light';
+}
+div.atc{
+	margin: 50px 0;
+}
+span.h{
+	display: inline-block;
+	
+	margin-right: 10px;
+	height: 35px;
+	width: 72px;
+	
+	text-align: center;
+	color: #fff;
+	background: url(img/h2.png);
+}
+span.tp{
+	display: inline-block;
+	width: 70%;
+}
+p.indent{
+	margin-left: 100px;
+}
+.nav-t{
+	font-size: 32px;
+	font-family: 'Mgen+ 1pp medium';
+}
+.top{
+	margin-top: -35px;
+	padding: 60px 0 60px 100px;
+	
+	background: #aaaaaa fixed;
+}
+.top-box{
+	position: relative;
+	padding: 30px;
+	
+	height: 400px;
+	width: 500px;
+	
+	font-size: 20px;
+	background: rgba(255,255,255,0.5);
+}
+.top-b{	
+	margin: 0 auto 5px auto;
+}
+.news{
+	padding: 5px 0;
+	
+	background: #000;
+	
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+}
+.main-about{
+	display: inline-block;
+	
+	margin: 0 50px;
+	
+	text-align: left;
+	vertical-align: middle;
+}
+.topic{
+	padding: 50px 60px;
+	
+	border-radius: 50px;
+	
+	background: #fff;
+}
+.topic-r{
+	padding: 50px 60px 50px 400px;
+	
+	border-radius: 50px;
+	
+	background: #fff;
+}
+.tp-tw{
+	position: relative;
+	top: -280px;
+	left: 1000px;
+}
+.head{
+	margin-top: -35px;
+	padding: 60px 30px 0 0;
+	
+	height: 180px;
+	
+	text-align: right;
+	background: #ccc;
+}
+.head-e{
+	font-family: 'Mgen+ 1pp heavy';
+	font-size: 72px;
+}
+.head-j{
+	font-family: 'Mgen+ 1pp heavy';
+	font-size: 36px;	
+}
+.before{
+	margin: 0 auto;
+	width: 60%;
+	
+	text-align: left;
+}
+img.tp-pr{
+	position: relative;
+	top: -300px;
+	left: 50px;
+}
+button.tp-pr{
+	position: relative;
+	top: -310px;
+	left: 400px;
+}
+.gmap{
+	
+}
