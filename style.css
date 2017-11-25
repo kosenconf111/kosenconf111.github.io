@@ -161,6 +161,9 @@ p.indent{
 	font-family: 'Mgen+ 1pp medium';
 }
 .top{
+	position: relative;
+	z-index: -9999;
+	
 	margin-top: -35px;
 	padding: 60px 0 60px 100px;
 	
@@ -216,6 +219,9 @@ p.indent{
 	left: 1000px;
 }
 .head{
+	position: relative;
+	z-index: -9999;
+	
 	margin-top: -35px;
 	padding: 60px 30px 0 0;
 	
