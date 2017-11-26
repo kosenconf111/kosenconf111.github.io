@@ -21,6 +21,8 @@ button{
 	color: #fff;
 	font-size: 34px;
 	font-family: 'Mgen+ 1pp bold';
+	
+	cursor: pointer;
 }
 ul{
    	margin: 0;
@@ -185,6 +187,10 @@ span.h{
 	text-align: left;
 }
 
+.nav{
+	height: 50px;
+}
+
 #nav-drawer {
   position: relative;
 }
@@ -244,6 +250,9 @@ span.h{
   width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
   max-width: 330px;/*最大幅（調整してください）*/
   height: 100%;
+	
+  padding-top: 50px;
+	
   background: #fff;/*背景色*/
   transition: .3s ease-in-out;/*滑らかに表示*/
   -webkit-transform: translateX(-105%);
