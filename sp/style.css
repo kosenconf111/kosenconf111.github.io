@@ -187,14 +187,13 @@ span.h{
 }
 
 .nav{
-	height: 50px;
+	display: block;
+	
+	padding: 10px;
 }
 
 #nav-drawer {
   position: relative;
-	
-  background-color: #000;
-  color: #fff;
 }
 
 /*チェックボックス等は非表示に*/
@@ -255,7 +254,9 @@ span.h{
 	
   padding-top: 50px;
 	
-  background: #fff;/*背景色*/
+  background: #000;/*背景色*/
+  color: #fff;
+  text-align: right;
   transition: .3s ease-in-out;/*滑らかに表示*/
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);/*左に隠しておく*/
