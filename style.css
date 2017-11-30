@@ -230,7 +230,7 @@ p.indent{
 	height: 180px;
 	
 	text-align: right;
-	background: #ccc;
+	background: url(img/head.png) no-repeat;
 }
 .head-e{
 	font-family: 'Mgen+ 1pp heavy';
