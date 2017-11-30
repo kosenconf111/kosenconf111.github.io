@@ -9,7 +9,7 @@ body{
 	font-family: メイリオ, Meiryo, 'Century Gothic', 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	-webkit-text-size-adjust: 100%;
 }
-div.button{
+span.button{
 	display: block;
 	
 	width: 400px;

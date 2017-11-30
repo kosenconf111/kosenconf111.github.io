@@ -48,7 +48,7 @@ a{
 a:hover{
 	opacity: 0.7;
 }
-div.button{
+span.button{
 	display: block;
 	
 	width: 400px;
