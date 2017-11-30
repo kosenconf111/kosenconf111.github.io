@@ -2,16 +2,24 @@
 /* CSS Document */
 
 @font-face {
-	font-family: "Mgen+ 1pp medium";
-	src: url(../fonts/Mgen+ 1pp medium.eot) format("eot"), url(../fonts/Mgen+ 1pp medium.woff) format("woff");
+	font-family: 'Mgen+ 1pp medium';
+	src: url("../fonts/Mgen+ 1pp medium.eot") format("eot"), 
+		 url("../fonts/Mgen+ 1pp medium.woff") format("woff");
 }
 @font-face {
-	font-family: "Mgen+ 1pp heavy";
-	src: url(../fonts/Mgen+ 1pp heavy.eot) format("eot"), url(../fonts/Mgen+ 1pp heavy.woff) format("woff");
+	font-family: 'Mgen+ 1pp heavy';
+	src: url("../fonts/Mgen+ 1pp heavy.eot") format("eot"), 
+		 url("../fonts/Mgen+ 1pp heavy.woff") format("woff");
+}
+@font-face {
+	font-family: 'Mgen+ 1pp light';
+	src: url("../fonts/Mgen+ 1pp light.eot") format("eot"), 
+		 url("../fonts/Mgen+ 1pp light.woff") format("woff");
 }
 @font-face {
 	font-family: "HGS教科書体";
-	src: url(../fonts/hgrkk.eot) format("eot"), url(../fonts/hgrkk.woff) format("woff");
+	src: url("../fonts/hgrkk.eot") format("eot"),
+		 url("../fonts/hgrkk.woff") format("woff");
 }
 
 body{
