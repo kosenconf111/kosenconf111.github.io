@@ -48,7 +48,7 @@ a{
 a:hover{
 	opacity: 0.7;
 }
-button{
+div.button{
 	display: block;
 	
 	width: 400px;
@@ -59,7 +59,8 @@ button{
 	
 	color: #fff;
 	font-size: 34px;
-	font-family: 'Mgen+ 1pp bold
+	text-align: center;
+	font-family: 'Mgen+ 1pp medium';
 }
 h1{
 	padding: 5px 0 0 100px;

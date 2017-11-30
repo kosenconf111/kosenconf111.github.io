@@ -9,20 +9,19 @@ body{
 	font-family: メイリオ, Meiryo, 'Century Gothic', 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	-webkit-text-size-adjust: 100%;
 }
-button{
+div.button{
 	display: block;
 	
 	width: 400px;
-	margin: 30px auto;
+	margin: auto;
 	padding: 15px 0;
 	
 	background: #00112E;
 	
 	color: #fff;
 	font-size: 34px;
-	font-family: 'Mgen+ 1pp bold';
-	
-	cursor: pointer;
+	text-align: center;
+	font-family: 'Mgen+ 1pp medium';
 }
 ul{
    	margin: 0;
