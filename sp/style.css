@@ -3,17 +3,17 @@
 
 @font-face {
 	font-family: 'Mgen+ 1pp medium';
-	src: url("../fonts/Mgen+ 1pp medium.eot") format("eot"), 
+	src: url("../fonts/Mgen+ 1pp medium.eot") format("eot"),
 		 url("../fonts/Mgen+ 1pp medium.woff") format("woff");
 }
 @font-face {
 	font-family: 'Mgen+ 1pp heavy';
-	src: url("../fonts/Mgen+ 1pp heavy.eot") format("eot"), 
+	src: url("../fonts/Mgen+ 1pp heavy.eot") format("eot"),
 		 url("../fonts/Mgen+ 1pp heavy.woff") format("woff");
 }
 @font-face {
 	font-family: 'Mgen+ 1pp light';
-	src: url("../fonts/Mgen+ 1pp light.eot") format("eot"), 
+	src: url("../fonts/Mgen+ 1pp light.eot") format("eot"),
 		 url("../fonts/Mgen+ 1pp light.woff") format("woff");
 }
 @font-face {
@@ -25,7 +25,7 @@
 body{
 	margin: 0 auto;
 	padding: 0;
-	width: 600px;
+	width: auto;
 	font-family: 'Quicksand', '游ゴシック体', 'Yu Gothic', 'YuGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
 	font-family: メイリオ, Meiryo, 'Century Gothic', 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -33,12 +33,12 @@ body{
 span.button{
 	display: block;
 	
-	width: 400px;
+	width: auto;
 	margin: auto;
 	padding: 15px 0;
-	
+
 	background: #00112E;
-	
+
 	color: #fff;
 	font-size: 34px;
 	text-align: center;
@@ -70,57 +70,57 @@ header {
   background: #000;
 }
 articl.normal{
-	
+
 }
 article.topics{
 	margin: 30px 0;
 	padding: 1px 5% 20px 5%;
-	
+
 	background: #ccc;
 }
 article.normal p.sent{
 	display: block;
-	
+
 	margin: 20px auto;
 	width: 90%;
 }
 footer{
 	margin-top: 50px;
 	padding: 30px 0;
-	
+
 	text-align: center;
-	
+
 	color: #fff;
 	background: #000;
 }
 h1{
 	padding: 5px 0 0 100px;
-	
+
 	height: 75px;
-	
+
 	font-family: "HGS教科書体";
 	font-size: 30px;
 	text-align: left;
-	
+
 	background: url("../img/sp/h1.png") no-repeat;
 }
 h2{
 	padding: 10px 0 0 50px;
-	
+
 	height: 77px;
-	
+
 	font-size: 25px;
 	font-weight: normal;
 	text-align: left;
-	
+
 	background: url(../img/sp/topics.png) no-repeat;
 }
 h3{
 	padding: 0 0 0 30px;
 	height: 45px;
-	
+
 	font-size: 23px;
-	
+
 	font-family: "HGS教科書体";
 	text-align: left;
 	background: url(../img/sp/h3.png) no-repeat;
@@ -130,65 +130,65 @@ h3{
 .top{
 	height: 450px;
 	padding-top: 60px;
-	
+
 	background: url(../img/sp/top.png) no-repeat;
 }
 .top-box{
 	position: relative;
-	
+
 	margin: auto;
 	padding: 30px;
-	
-	height: 300px;
-	width: 500px;
+
+	height: auto;
+	width: auto;
 	
 	font-size: 20px;
 	background: rgba(255,255,255,0.8);
 }
 .news{
 	padding: 5px 0;
-	
+
 	background: #000;
-	
+
 	text-align: center;
 	color: #fff;
 	font-size: 20px;
 }
 .main-about{
 	display: inline-block;
-	
+
 	margin: 0 50px;
-	
+
 	text-align: left;
 	vertical-align: middle;
 }
 span.h{
 	display: inline-block;
-	
+
 	margin-right: 10px;
 	height: 35px;
 	width: 72px;
-	
+
 	text-align: center;
 	color: #fff;
 	background: url(../img/h2.png);
 }
 .topic{
 	padding: 50px 60px;
-	
+
 	border-radius: 50px;
-	
+
 	background: #fff;
 }
 .head{
 	position: relative;
 	z-index: -9999;
-	
+
 	margin-top: -35px;
 	padding: 60px 30px 0 0;
-	
+
 	height: 180px;
-	
+
 	text-align: right;
 	background: url(../img/sp/head.png) no-repeat;
 }
@@ -198,18 +198,18 @@ span.h{
 }
 .head-j{
 	font-family: 'Mgen+ 1pp heavy';
-	font-size: 36px;	
+	font-size: 36px;
 }
 .before{
 	margin: 0 auto;
 	width: 60%;
-	
+
 	text-align: left;
 }
 
 .nav{
 	display: block;
-	
+
 	padding: 10px;
 }
 
@@ -272,9 +272,9 @@ span.h{
   width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
   max-width: 330px;/*最大幅（調整してください）*/
   height: 100%;
-	
+
   padding-top: 50px;
-	
+
   background: #000;/*背景色*/
   color: #fff;
   text-align: right;
