@@ -22,7 +22,7 @@
 		 url("../fonts/hgrkk.woff") format("woff");
 }
 
-body{
+body {
 	margin: 0 auto;
 	padding: 0;
 	width: auto;
@@ -30,267 +30,268 @@ body{
 	font-family: メイリオ, Meiryo, 'Century Gothic', 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	-webkit-text-size-adjust: 100%;
 }
-span.button{
+
+span.button {
 	display: block;
-	
 	width: auto;
 	margin: auto;
 	padding: 15px 0;
-
 	background: #00112E;
-
 	color: #fff;
 	font-size: 34px;
 	text-align: center;
 	font-family: 'Mgen+ 1pp medium';
 }
-ul{
-   	margin: 0;
+
+ul {
+	margin: 0;
 	padding: 0;
+	list-style: none;
 }
-li{
+
+li {
 	list-style-type: none;
 }
-table{
+
+li.square::before {
+	font-family: FontAwesome;
+	content: '\f0c8';
+}
+
+li.circle {
+	list-style-type: disc;
+}
+
+ul.itemisation {
+	margin-left: 30px;
+}
+
+table {
 	border-collapse: collapse;
 }
-img{
+
+img {
 	vertical-align: bottom;
 	border: 0;
 }
-a{
+
+a {
 	text-decoration: none;
 	color: inherit;
 }
-a:hover{
+
+a:hover {
 	opacity: 0.7;
 }
-header {
-  padding: 30px;
-  background: #000;
-}
-articl.normal{
 
+header {
+	padding: 30px;
+	background: #000;
 }
-article.topics{
+
+article.topics {
 	margin: 30px 0;
 	padding: 1px 5% 20px 5%;
-
 	background: #ccc;
 }
-article.normal p.sent{
-	display: block;
 
+article.normal p.sent {
+	display: block;
 	margin: 20px auto;
 	width: 90%;
 }
-footer{
+
+footer {
 	margin-top: 50px;
 	padding: 30px 0;
-
 	text-align: center;
-
 	color: #fff;
 	background: #000;
 }
-h1{
+
+h1 {
 	padding: 5px 0 0 100px;
-
 	height: 75px;
-
 	font-family: "HGS教科書体";
 	font-size: 30px;
 	text-align: left;
-
 	background: url("../img/sp/h1.png") no-repeat;
 }
-h2{
+
+h2 {
 	padding: 10px 0 0 50px;
-
 	height: 77px;
-
 	font-size: 25px;
 	font-weight: normal;
 	text-align: left;
-
 	background: url(../img/sp/topics.png) no-repeat;
 }
-h3{
+
+h3 {
 	padding: 0 0 0 30px;
 	height: 45px;
-
 	font-size: 23px;
-
 	font-family: "HGS教科書体";
 	text-align: left;
 	background: url(../img/sp/h3.png) no-repeat;
 }
 
-
-.top{
+.top {
 	height: 450px;
 	padding-top: 60px;
-
 	background: url(../img/sp/top.png) no-repeat;
 }
-.top-box{
-	position: relative;
 
+.top-box {
+	position: relative;
 	margin: auto;
 	padding: 30px;
-
 	height: auto;
 	width: auto;
-	
 	font-size: 20px;
 	background: rgba(255,255,255,0.8);
 }
-.news{
+
+.news {
 	padding: 5px 0;
-
 	background: #000;
-
 	text-align: center;
 	color: #fff;
 	font-size: 20px;
 }
-.main-about{
+
+.main-about {
 	display: inline-block;
-
 	margin: 0 50px;
-
 	text-align: left;
 	vertical-align: middle;
 }
-span.h{
-	display: inline-block;
 
+.h {
+	display: inline-block;
 	margin-right: 10px;
 	height: 35px;
 	width: 72px;
-
 	text-align: center;
 	color: #fff;
 	background: url(../img/h2.png);
 }
-.topic{
+
+.topic {
 	padding: 50px 60px;
-
 	border-radius: 50px;
-
 	background: #fff;
 }
-.head{
+
+.head {
 	position: relative;
 	z-index: -9999;
-
 	margin-top: -35px;
 	padding: 60px 30px 0 0;
-
 	height: 180px;
-
 	text-align: right;
 	background: url(../img/sp/head.png) no-repeat;
 }
-.head-e{
+
+.head-e {
 	font-family: 'Mgen+ 1pp heavy';
 	font-size: 72px;
 }
-.head-j{
+
+.head-j {
 	font-family: 'Mgen+ 1pp heavy';
 	font-size: 36px;
 }
-.before{
+
+.before {
 	margin: 0 auto;
 	width: 60%;
-
 	text-align: left;
 }
 
-.nav{
+.nav {
 	display: block;
-
 	padding: 10px;
 }
 
 #nav-drawer {
-  position: relative;
+	position: relative;
 }
 
 /*チェックボックス等は非表示に*/
 .nav-unshown {
-  display:none;
+	display:none;
 }
 
 /*アイコンのスペース*/
 #nav-open {
-  display: inline-block;
-  width: 30px;
-  height: 22px;
-  vertical-align: middle;
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	vertical-align: middle;
 }
 
 /*ハンバーガーアイコンをCSSだけで表現*/
 #nav-open span, #nav-open span:before, #nav-open span:after {
-  position: absolute;
-  height: 3px;/*線の太さ*/
-  width: 25px;/*長さ*/
-  border-radius: 3px;
-  background: #fff;
-  display: block;
-  content: '';
-  cursor: pointer;
+	position: absolute;
+	height: 3px;/*線の太さ*/
+	width: 25px;/*長さ*/
+	border-radius: 3px;
+	background: #fff;
+	display: block;
+	content: '';
+	cursor: pointer;
 }
+
 #nav-open span:before {
-  bottom: -8px;
+	bottom: -8px;
 }
+
 #nav-open span:after {
-  bottom: -16px;
+	bottom: -16px;
 }
 
 /*閉じる用の薄黒カバー*/
 #nav-close {
-  display: none;/*はじめは隠しておく*/
-  position: fixed;
-  z-index: 99;
-  top: 0;/*全体に広がるように*/
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0;
-  transition: .3s ease-in-out;
+	display: none;/*はじめは隠しておく*/
+	position: fixed;
+	z-index: 99;
+	top: 0;/*全体に広がるように*/
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0;
+	transition: .3s ease-in-out;
 }
 
 /*中身*/
 #nav-content {
-  overflow: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;/*最前面に*/
-  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
-  max-width: 330px;/*最大幅（調整してください）*/
-  height: 100%;
-
-  padding-top: 50px;
-
-  background: #000;/*背景色*/
-  color: #fff;
-  text-align: right;
-  transition: .3s ease-in-out;/*滑らかに表示*/
-  -webkit-transform: translateX(-105%);
-  transform: translateX(-105%);/*左に隠しておく*/
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;/*最前面に*/
+	width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+	max-width: 330px;/*最大幅（調整してください）*/
+	height: 100%;
+	padding-top: 50px;
+	background: #000;/*背景色*/
+	color: #fff;
+	text-align: right;
+	transition: .3s ease-in-out;/*滑らかに表示*/
+	-webkit-transform: translateX(-105%);
+	transform: translateX(-105%);/*左に隠しておく*/
 }
 
 /*チェックが入ったらもろもろ表示*/
 #nav-input:checked ~ #nav-close {
-  display: block;/*カバーを表示*/
-  opacity: .5;
+	display: block;/*カバーを表示*/
+	opacity: .5;
 }
 
 #nav-input:checked ~ #nav-content {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);/*中身を表示（右へスライド）*/
-  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+	-webkit-transform: translateX(0%);
+	transform: translateX(0%);/*中身を表示（右へスライド）*/
+	box-shadow: 6px 0 25px rgba(0,0,0,.15);
 }
