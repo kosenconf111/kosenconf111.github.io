@@ -139,7 +139,8 @@ h3 {
 .top {
 	height: 450px;
 	padding-top: 60px;
-	background: url(../img/sp/top.png) no-repeat;
+	background: url(../img/sp/top.png);
+ background-size: cover;
 }
 
 .top-box {
