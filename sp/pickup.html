@@ -17,11 +17,13 @@
 		<title>高専カンファレンスin西京公式サイト</title>
 		<link rel="stylesheet" href="style.css">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!--
 		<script type="text/javascript">
 			if (!((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0)) {
 				location.href = '/pickup.html';
 			}
 		</script>
+  -->
 		<script>
 			$(function(){
 			$("#header").load("header.html");
@@ -30,22 +32,47 @@
 		</script>
 	</head>
 
-	<body>
-		<div id="header"></div>
-		<div class="head">
-			<span class="head-e">Pick Up</span><br>
-			<span class="head-j">見どころ紹介</span>
-		</div>
-		<article class="normal">
-			<h1>準備中</h1>
-			<div class="atc">
-				<p class="sent">
-					現在準備中の項目です。
-					もうしばらくお待ちください！
-				</p>
-			</div>
-			<a href="../index.html"><span class="button">トップページへ</span></a>
-		</article>
-		<div id="footer"></div>
-	</body>
+	 <body>
+    <div id="header"></div>
+		  <div class="head">
+			  <span class="head-e">Pick Up</span><br>
+			  <span class="head-j">見どころ紹介</span>
+		  </div>
+		  <article class="normal">
+      <h1>イメージキャラクター</h1>
+      <div class="atc">
+			  	  <p class="sent">
+          高専カンファレンスin西京では、初めての参加者さんにも親しみを持ってもらえるようイメージキャラクター【西宮壱香(にしみや いちか)】を制作しました！<br>
+        </p>
+        <p class="sent">
+          西宮壱香は山口県出身の駆け出しアイドルで、「高専カンファレンス」が地元で行われるとの依頼を受けイメージガールに就任しました。
+          普段はおしとやかな性格ですが知的好奇心が旺盛で、新しい知識を前にすると感情が高ぶって抑えられなくなってしまうそう。<br>
+          イラストは後日公開予定です。お楽しみに！
+			     </p>
+        <img src="../img/sp/nowprinting.png" alt="Now Printing..." width="100%">
+      </div>
+		  </article>
+  		<article class="normal">
+		   	<h1>Twitter連動大喜利企画</h1>
+		 	  <div class="atc">
+				  <p class="sent">
+        Twitterで「#西京カンファ」のタグを付けてお題に合わせたツイートをし、山口県のおみやげをゲットしよう！<br>
+        お題は「高専生流・コミュニケーション術」。ツイートをしてくれたカンファレンス参加者の中から1名に山口県のおみやげアソートセットをプレゼントします！<br>
+        内容は真面目なものからユーモラスなものまで自由です。ぜひご参加ください！！<br>
+		  	 </p>
+		    </div>
+		    <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://github.io/kosenconf111" data-text="私の考える「高専生流・コミュニケーション術」はこれ！" data-size="large" data-via="kosenconf111" data-hashtags="西京カンファ">Tweet</a> 
+      <script>
+      !function(d,s,id){
+        var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+        if(!d.getElementById(id)){
+          js=d.createElement(s);
+          js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js,fjs);
+          }
+        }(document, 'script', 'twitter-wjs');
+      </script>
+		  </article>
+	  	<div id="footer"></div>
+  </body>
 </html>

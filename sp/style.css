@@ -95,10 +95,15 @@ article.topics {
 	background: #ccc;
 }
 
+article.normal{
+  text-align: center;
+}
+
 article.normal p.sent {
 	display: block;
 	margin: 20px auto;
 	width: 90%;
+ text-align: left;
 }
 
 footer {
