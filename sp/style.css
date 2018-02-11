@@ -197,6 +197,7 @@ h3 {
 	height: 180px;
 	text-align: right;
 	background: url(../img/sp/head.png) no-repeat;
+ background-size: cover;
 }
 
 .head-e {
